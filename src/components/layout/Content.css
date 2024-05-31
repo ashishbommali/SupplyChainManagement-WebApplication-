@@ -1,0 +1,38 @@
+.landing-content {
+    background: linear-gradient(to right, magenta, blue);
+}
+
+.content-item {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    transition: transform 1s ease-in-out; /* Add a transition effect */
+}
+
+.rounded-image {
+    width: 450px;
+    height: 560px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-content {
+    width: 380px;
+}
+
+.info-content h3 {
+    margin-top: 0;
+}
+
+.info-content p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.content-item:hover {
+    transform: scale(1.05) rotateY(360deg); /* Scale up on hover */
+  }
