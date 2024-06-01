@@ -5,10 +5,15 @@
     grid-template-columns: 1fr 3fr;
     gap: 1rem;
     padding: 1rem;
-  }
-  
-  .dashboard, .product-management, .order-management, .customer-reviews, .profile-section, .notifications, .support {
+}
+
+.dashboard,
+.product-management,
+.order-management,
+.customer-reviews,
+.profile-section,
+.notifications,
+.support {
     border: 1px solid #ccc;
     padding: 1rem;
-  }
-  
+}

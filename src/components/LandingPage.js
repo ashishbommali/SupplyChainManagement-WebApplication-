@@ -8,7 +8,7 @@ const LandingPage = () => {
     return (
         <div>
             <Header />
-            <Content /> 
+            <Content />
             <Footer />
         </div>
     );
